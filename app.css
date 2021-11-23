@@ -1,0 +1,139 @@
+body {
+    background: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
+.derp h2 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+#between {
+    height: 60px;
+    background: black;
+}
+
+.content {
+    margin: 0;
+}
+
+#pictext {
+    border-left: 5px black solid;
+}
+
+#leftpictext {
+    border-right: 4px black solid;
+}
+
+#pictext:hover {
+    background: white;
+    border-top: 2px rgb(0, 0, 0) solid;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+    border-left: 5px black solid;
+    box-shadow: -5px 5px 5px grey;
+    transition: .1s;
+    cursor: pointer;
+}
+#leftpictext:hover {
+    background: white;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    border-right: 4px black solid;
+    box-shadow: 5px 5px 5px grey;
+    transition: .1s;
+    cursor: pointer;
+} 
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#mainNavbar .nav-link {
+    color: #000000;
+    font-weight: 300;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #000000;
+    font-weight: 600;
+}
+
+#mainNavbar .navbar-brand {
+    color: #000000;
+    font-size: 1.6rem;
+}
+
+#red {
+    color: #ff0000;
+}
+
+#headinggroup h1 {
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.navbar.scrolled {
+    background: #e5e5e5;
+    transition: background .5s; 
+}
+
+.navbar.scrolled > .nav-link{ 
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    #headinggroup h1 {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    #headinggroup h1 {
+        font-weight: 400;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 767px) {
+    #pictext {
+        border: 2px black solid;
+        margin-top: 10px;
+    }
+    
+    #leftpictext {
+        margin-top: 10px;
+        border: 2px black solid;
+    }
+    #between {
+        height: 21px;
+        margin-bottom: 0;
+    }
+    #comment {
+        background-color: #000000;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    height: 80px;
+    margin-top: 12em;
+    padding: 0px, 10px, auto;
+    background: #0a0908;
+    color: white;
+  }
+
+  .footerlinks > a {
+    color: white;
+  }
+
+  .footerlinks {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    text-decoration: none;
+  }
