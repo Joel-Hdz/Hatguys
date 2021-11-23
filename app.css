@@ -114,6 +114,9 @@ body {
     #comment {
         background-color: #000000;
     }
+    #mainNavbar {
+        background-color: #e5e5e5;
+    }
 }
 
 footer {
